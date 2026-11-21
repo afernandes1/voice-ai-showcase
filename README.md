@@ -105,16 +105,18 @@ flowchart LR
 
 A demonstration video and project portfolio will be added here.
 
-## Deployment roadmap
+## Deployment status and roadmap
 
-The current prototype runs in a private development lab.
+The underlying Asterisk and Python voice platform has been deployed on AWS EC2. The appointment-assistant and CRM demonstration described here is tested in a private Linux/Docker lab.
 
-Planned deployment work includes:
+These are prototype environments. Production hardening and a protected public demonstration remain planned work.
 
-- AWS hosting.
+Planned work for the appointment-assistant demonstration includes:
+
+- Protected AWS hosting for the full demonstration.
 - Secure public access to the CRM.
 - Production monitoring and logging.
-- SIP trunk or PSTN number integration.
+- SIP trunk or PSTN number integration for the demonstration.
 - Configurable customer-specific workflows.
 - Integration with external CRM, calendar and booking platforms.
 
